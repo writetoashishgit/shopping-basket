@@ -1,2 +1,14 @@
 *.class
 *.log
+.idea
+target
+derby.log
+*.iml
+docs
+dependency-reduced-pom.xml
+.cache-main
+.cache-tests
+.classpath
+.project
+.settings
+
