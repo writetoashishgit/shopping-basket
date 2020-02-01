@@ -93,65 +93,10 @@
   </build>
 
 
-<!--  <dependencies>-->
-<!--    <dependency>-->
-<!--      <groupId>org.scala-lang</groupId>-->
-<!--      <artifactId>scala-library</artifactId>-->
-<!--      <version>${scala.version}</version>-->
-<!--    </dependency>-->
-<!--    <dependency>-->
-<!--      <groupId>org.apache.spark</groupId>-->
-<!--      <artifactId>spark-core_2.11</artifactId>-->
-<!--      <version>2.1.0</version>-->
-<!--      &lt;!&ndash;      <scope>${env.type}</scope>&ndash;&gt;-->
-<!--    </dependency>-->
 
-
-<!--    &lt;!&ndash; Test &ndash;&gt;-->
-<!--    <dependency>-->
-<!--      <groupId>org.specs2</groupId>-->
-<!--      <artifactId>specs2-junit_${scala.compat.version}</artifactId>-->
-<!--      <version>${spec2.version}</version>-->
-<!--      <scope>test</scope>-->
-<!--    </dependency>-->
-<!--    <dependency>-->
-<!--      <groupId>org.typelevel</groupId>-->
-<!--      <artifactId>cats-core_2.11</artifactId>-->
-<!--      <version>1.1.0</version>-->
-<!--      <scope>compile</scope>-->
-<!--    </dependency>-->
-<!--    <dependency>-->
-<!--      <groupId>org.scalatest</groupId>-->
-<!--      <artifactId>scalatest_2.11</artifactId>-->
-<!--      <version>3.0.0</version>-->
-<!--      <scope>test</scope>-->
-<!--    </dependency>-->
-<!--    <dependency>-->
-<!--      <groupId>org.scala-lang</groupId>-->
-<!--      <artifactId>scala-library</artifactId>-->
-<!--      <version>${scala.version}</version>-->
-<!--      <scope>${env.type}</scope>-->
-<!--    </dependency>-->
-
-<!--    <dependency>-->
-<!--      <groupId>org.scalactic</groupId>-->
-<!--      <artifactId>scalactic_2.11</artifactId>-->
-<!--      <version>3.0.0</version>-->
-<!--      <scope>test</scope>-->
-<!--    </dependency>-->
-
-
-
-<!--  </dependencies>-->
-<!--&lt;!&ndash;  ENDD&ndash;&gt;-->
 
   <dependencies>
 
-<!--    <dependency>-->
-<!--      <groupId>com.cwt.extract</groupId>-->
-<!--      <artifactId>travel-consolidator-extract-common</artifactId>-->
-<!--      <version>${travel.consolidator.extract.common.version}</version>-->
-<!--    </dependency>-->
     <dependency>
       <groupId>${cats.dependency.group}</groupId>
       <artifactId>${cats.dependency.artifactId}</artifactId>
@@ -165,36 +110,7 @@
       <version>${scala.version}</version>
       <scope>${env.type}</scope>
     </dependency>
-
-    <dependency>
-      <groupId>org.apache.spark</groupId>
-      <artifactId>spark-core_2.11</artifactId>
-      <version>${spark.version}</version>
-      <scope>${env.type}</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.spark</groupId>
-      <artifactId>spark-sql_2.11</artifactId>
-      <version>${spark.version}</version>
-      <scope>${env.type}</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.spark</groupId>
-      <artifactId>spark-hive_2.11</artifactId>
-      <version>${spark.version}</version>
-      <scope>${env.type}</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>com.cwt.data</groupId>
-      <artifactId>data-pipe-line-test-common</artifactId>
-      <version>${tc.test.common.version}</version>
-      <scope>test</scope>
-    </dependency>
-
-    <dependency>
+     <dependency>
       <groupId>org.scalatest</groupId>
       <artifactId>scalatest_2.11</artifactId>
       <version>${scalatest_2.11.version}</version>
