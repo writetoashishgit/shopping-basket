@@ -335,8 +335,6 @@
         <spark.test.base.version>0.8.0</spark.test.base.version>
         <java.string.similarity.version>1.0.1</java.string.similarity.version>
         <env.type>provided</env.type>
-        <cats.dependency.group>com.cwt.data</cats.dependency.group>
-        <cats.dependency.artifactId>travel-consolidator-dependency</cats.dependency.artifactId>
         <cats.dependency.version>1.0-SNAPSHOT</cats.dependency.version>
         <cats.dependency.scope>provided</cats.dependency.scope>
       </properties>
